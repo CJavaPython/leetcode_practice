@@ -1,4 +1,5 @@
 test = dict()
+test[1]=(1,2)
+print(test)
 test[1]=2
-print(len(test))
-print(test.get(0))
+print(test)

@@ -9,12 +9,15 @@ class Solution:
         ## live : 1
         ## dead : 0
         # four rules
+        
         ## live cell
         ### live neighbor cell < 2 : dead
         ### live neighbor cell == 2, 3 : live until next generation
         ### live neighbor cell > 3 : dead
+
         ## dead cell
         ## live neighbor cell == 3 : live
+        
         ## rule applying simultaneously
         ## return next state
         ## "in-place"
