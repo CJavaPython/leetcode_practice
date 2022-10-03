@@ -12,7 +12,7 @@ class Solution:
 s = Solution()
 s.minCost(colors = "abaac", neededTime = [1,2,3,4,5])
 
-"""
+"""git 
 Constraints:
 
 n == colors.length == neededTime.length

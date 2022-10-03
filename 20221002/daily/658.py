@@ -21,6 +21,7 @@ class Solution:
         elif k==len(arr):
             result=arr
         else:
+            # 1. find closest integer in array
             # find with binary search
             start = 0
             end = len(arr) - 1
@@ -43,6 +44,7 @@ class Solution:
             # find k closest one
             result = deque()
             result.append(arr[mid])
+            # 2. find with two pointer (?)
             k-=1
             left_mid = mid-1
             right_mid = mid+1
