@@ -4,6 +4,8 @@
 class MyCircularQueue:
 
     def __init__(self, k: int):
+        self.capacity = k
+
         
 
     def enQueue(self, value: int) -> bool:
@@ -33,3 +35,4 @@ class MyCircularQueue:
 # param_4 = obj.Rear()
 # param_5 = obj.isEmpty()
 # param_6 = obj.isFull()
+
